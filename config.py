@@ -16,16 +16,16 @@ class Config:
     DEBUG = True
     
     
-class ProdConfig(Config):
-    SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
-    if SQLALCHEMY_DATABASE_URI.startswith("postgres://"):
-        SQLALCHEMY_DATABASE_URI = SQLALCHEMY_DATABASE_URI.replace("postgres://", "postgresql://", 1)
+# class ProdConfig(Config):
+#     SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
+#     if SQLALCHEMY_DATABASE_URI.startswith("postgres://"):
+#         SQLALCHEMY_DATABASE_URI = SQLALCHEMY_DATABASE_URI.replace("postgres://", "postgresql://", 1)
 
-class DevConfig(Config):
-    SQLALCHEMY_DATABASE_URI = ('postgresql+psycopg2://kigen:29584933@localhost/blog')
-    DEBUG = True
+# class DevConfig(Config):
+#     SQLALCHEMY_DATABASE_URI = ('postgresql+psycopg2://kigen:29584933@localhost/blog')
+#     DEBUG = True
 
-config_options = {
-'development':DevConfig,
-'production':ProdConfig
-}    
+# config_options = {
+# 'development':DevConfig,
+# 'production':ProdConfig
+# }    
