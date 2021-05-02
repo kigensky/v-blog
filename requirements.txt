@@ -36,7 +36,6 @@ simplejson==3.16.0
 SQLAlchemy==1.4.9
 sqlparse==0.4.1
 urllib3==1.25.8
-usb-creator==0.3.7
 virtualenv==20.0.17
 Werkzeug==0.16.0
 WTForms==2.3.3
