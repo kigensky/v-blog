@@ -7,4 +7,4 @@ Post: {{blog.content|truncate(30)}}
 
 Regards,
 
-D-Bloger - Charles
+V-Bloger - Victor
