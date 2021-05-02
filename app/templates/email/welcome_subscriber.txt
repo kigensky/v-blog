@@ -1,2 +1,2 @@
-Hello {{user.username}}, Welcome to D-Blog.
+Hello {{user.username}}, Welcome to V-Blog.
 You have joined a great blogging platform where you would be able to recieve blogs updades regularly
