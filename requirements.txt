@@ -1,6 +1,5 @@
 alembic==1.5.8
 appdirs==1.4.3
-apturl==0.5.2
 asgiref==3.3.1
 attrs==20.3.0
 Automat==20.2.0
