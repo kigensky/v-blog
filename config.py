@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 class Config:
+    
     SECRET_KEY = ('29584933')
     SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL")
     SQLALCHEMY_DATABASE_URI = ('postgresql+psycopg2://kigen:29584933@localhost/blog')
@@ -14,7 +15,7 @@ class Config:
     MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
     # SECRET_KEY = os.environ.get('SECRET_KEY')
     UPLOADED_PHOTOS_DEST ='app/static/photos'
-    DEBUG = True
+    
     
     
 class ProdConfig(Config):
