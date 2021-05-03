@@ -19,7 +19,9 @@ As a user I would like to:
 * A user sees random quotes on the site
 * A writer can create a blog from the application and update or delete blogs I have created.
 
-# Specifications
+# ERD
+
+<img src="home/kigen/Desktop/v-blog/app/static/photos/Screenshot" width="900px" height="440px">
 
 ## Specifications
 | Behaviour | Input | Output |
