@@ -6,7 +6,7 @@
 ## Description
 This is a flask application that allows writers to post blogs, edit and delete blogs. It also allows users who have signed up to comment on the blogs that has been posted by a writer. It also allows a person to subscribed to recieve email everytime a new blog is posted by a writer.
 
-You can view the site at:[HEROKU]()
+You can view the site at:[HEROKU](https://hakika2.herokuapp.com/)
 
 # User Stories
 These are the behaviours/features that the application implements for use by a user.
