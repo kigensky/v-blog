@@ -15,7 +15,7 @@ class BlogModelTest(unittest.TestCase):
     def test_check_instance_variables(self):
         self.assertEquals(self.new_blog.title, 'Test')
         self.assertEquals(self.new_blog.content, 'This is a test blog')
-        self.assertEquals(self.new_blog.user_id, self.user_charles.id)
+        self.assertEquals(self.new_blog.user_id, self.user_Kigensky.id)
 
     def test_save_blog(self):
         self.new_blog.save()
